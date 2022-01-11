@@ -18,6 +18,7 @@ func Hello(name string) (string, error) {
 }
 
 func Hellos(names []string) (map[string]string, error) {
+	// In Go, you initialize a map with the following syntax: make(map[key-type]value-type).
 	messages := make(map[string]string)
 
 	for _, name := range names {
@@ -26,7 +27,6 @@ func Hellos(names []string) (map[string]string, error) {
 		if err != nil {
 			return nil, err
 		}
-
 		messages[name] = message
 	}
 
