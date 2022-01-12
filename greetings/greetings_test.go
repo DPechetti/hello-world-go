@@ -15,3 +15,12 @@ func TestHelloName(t *testing.T) {
 		t.Fatalf(`Hello (%q) = %q, %v, want match for %q, nil`, name, msg, err, want)
 	}
 }
+
+func TestHelloEmpty(t *testing.T) {
+	name := ""
+	msg, err := Hello(name)
+
+	if msg != "" || err == nil {
+		t.Fatalf(`Hello (%q) = %q, %v, want %q, nil`, name, msg, err, "")
+	}
+}
