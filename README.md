@@ -4,6 +4,8 @@ hello world made with golang following the documentation
 
 ## But is not just that
 
+### Documentation
+
 - [x] Create a module -> Write a small module with functions you can call from another module.
 - [x] Call your code from another module -> Import and use your new module.
 - [x] Return and handle an error -> Add simple error handling.
