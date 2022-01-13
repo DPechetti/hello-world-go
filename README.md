@@ -13,3 +13,7 @@ hello world made with golang following the documentation
 - [x] Return greetings for multiple people -> Store key/value pairs in a map.
 - [x] Add a test -> Use Go's built-in unit testing features to test your code.
 - [x] Compile and install the application -> Compile and install your code locally.
+
+### A Tour of Go
+
+- [ ] hello.go
