@@ -16,4 +16,5 @@ hello world made with golang following the documentation
 
 ### A Tour of Go
 
-- [ ] hello.go
+- [x] hello.go
+- [ ] sandbox.go
