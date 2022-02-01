@@ -19,4 +19,4 @@ hello world made with golang following the documentation
 - [x] hello.go
 - [x] sandbox.go
 - [x] packages.go
-- [ ] imports.go
+- [x] imports.go
