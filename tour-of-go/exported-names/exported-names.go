@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"math"
+)
+
 func main() {
-	fmt.println(math.pi)
+	fmt.Println(math.Pi)
 }
