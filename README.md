@@ -20,4 +20,4 @@ hello world made with golang following the documentation
 - [x] sandbox.go
 - [x] packages.go
 - [x] imports.go
-- [ ] exported-names.go
+- [x] exported-names.go
