@@ -22,3 +22,4 @@ hello world made with golang following the documentation
 - [x] imports.go
 - [x] exported-names.go
 - [x] functions.go
+- [ ] functions-continued.go
