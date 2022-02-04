@@ -23,4 +23,4 @@ hello world made with golang following the documentation
 - [x] exported-names.go
 - [x] functions.go
 - [x] functions-continued.go
-- [ ] multiple-results.go
+- [x] multiple-results.go
