@@ -33,3 +33,4 @@ hello world made with golang following the documentation
 - [ ] type-conversions.go
 - [ ] type-inference.go
 - [ ] constants.go
+- [ ] numeric-constants.go
