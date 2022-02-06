@@ -24,3 +24,13 @@ hello world made with golang following the documentation
 - [x] functions.go
 - [x] functions-continued.go
 - [x] multiple-results.go
+- [ ] named-results.go
+- [ ] variables.go
+- [ ] variables-with-initializers.go
+- [ ] short-variable-declarations.go
+- [ ] basic-types.go
+- [ ] zero.go
+- [ ] type-conversions.go
+- [ ] type-inference.go
+- [ ] constants.go
+- [ ] numeric-constants.go
