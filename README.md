@@ -31,3 +31,4 @@ hello world made with golang following the documentation
 - [ ] basic-types.go
 - [ ] zero.go
 - [ ] type-conversions.go
+- [ ] type-inference.go
