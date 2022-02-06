@@ -30,3 +30,4 @@ hello world made with golang following the documentation
 - [ ] short-variable-declarations.go
 - [ ] basic-types.go
 - [ ] zero.go
+- [ ] type-conversions.go
