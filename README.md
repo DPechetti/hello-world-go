@@ -25,3 +25,4 @@ hello world made with golang following the documentation
 - [x] functions-continued.go
 - [x] multiple-results.go
 - [ ] named-results.go
+- [ ] variables.go
