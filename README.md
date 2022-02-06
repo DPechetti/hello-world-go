@@ -26,3 +26,4 @@ hello world made with golang following the documentation
 - [x] multiple-results.go
 - [ ] named-results.go
 - [ ] variables.go
+- [ ] variables-with-initializers.go
