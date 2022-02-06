@@ -28,3 +28,4 @@ hello world made with golang following the documentation
 - [ ] variables.go
 - [ ] variables-with-initializers.go
 - [ ] short-variable-declarations.go
+- [ ] basic-types.go
