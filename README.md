@@ -32,3 +32,4 @@ hello world made with golang following the documentation
 - [ ] zero.go
 - [ ] type-conversions.go
 - [ ] type-inference.go
+- [ ] constants.go
