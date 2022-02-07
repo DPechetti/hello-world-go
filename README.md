@@ -24,7 +24,7 @@ hello world made with golang following the documentation
 - [x] functions.go
 - [x] functions-continued.go
 - [x] multiple-results.go
-- [ ] named-results.go
+- [x] named-results.go
 - [ ] variables.go
 - [ ] variables-with-initializers.go
 - [ ] short-variable-declarations.go
