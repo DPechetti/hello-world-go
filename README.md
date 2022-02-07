@@ -28,7 +28,7 @@ hello world made with golang following the documentation
 - [x] variables.go
 - [x] variables-with-initializers.go
 - [x] short-variable-declarations.go
-- [ ] basic-types.go
+- [x] basic-types.go
 - [ ] zero.go
 - [ ] type-conversions.go
 - [ ] type-inference.go
