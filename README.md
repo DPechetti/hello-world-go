@@ -30,7 +30,7 @@ hello world made with golang following the documentation
 - [x] short-variable-declarations.go
 - [x] basic-types.go
 - [x] zero.go
-- [ ] type-conversions.go
+- [x] type-conversions.go
 - [ ] type-inference.go
 - [ ] constants.go
 - [ ] numeric-constants.go
