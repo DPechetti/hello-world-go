@@ -31,6 +31,6 @@ hello world made with golang following the documentation
 - [x] basic-types.go
 - [x] zero.go
 - [x] type-conversions.go
-- [ ] type-inference.go
-- [ ] constants.go
-- [ ] numeric-constants.go
+- [x] type-inference.go
+- [x] constants.go
+- [x] numeric-constants.go
