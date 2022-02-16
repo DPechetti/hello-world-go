@@ -18,7 +18,7 @@ hello world made with golang following the documentation
 
 #### Part 1
 
-- [x] [hello.go](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
+- [x] [hello](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
 - [x] sandbox.go
 - [x] packages.go
 - [x] imports.go
