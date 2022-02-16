@@ -16,9 +16,11 @@ hello world made with golang following the documentation
 
 ### A Tour of Go
 
-- [x] hello.go
-- [x] sandbox.go
-- [x] packages.go
+#### Part 1
+
+- [x] [hello](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
+- [x] [sandbox](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#sandbox)
+- [x] [packages](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#packages)
 - [x] imports.go
 - [x] exported-names.go
 - [x] functions.go
@@ -34,3 +36,47 @@ hello world made with golang following the documentation
 - [x] type-inference.go
 - [x] constants.go
 - [x] numeric-constants.go
+
+#### Hello
+
+```
+These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+#### Sandbox
+
+```
+This tour is built atop the Go Playground, a web service that runs on golang.org's servers.
+
+The service receives a Go program, compiles, links, and runs the program inside a sandbox, then returns the output.
+
+There are limitations to the programs that can be run in the playground:
+
+In the playground the time begins at 2009-11-10 23:00:00 UTC (determining the significance of this date is an exercise for the reader). This makes it easier to cache programs by giving them deterministic output.
+There are also limits on execution time and on CPU and memory usage, and the program cannot access external network hosts.
+The playground uses the latest stable release of Go.
+
+Read "[Inside the Go Playground](https://go.dev/blog/playground)" to learn more.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+#### Packages
+
+```
+Every Go program is made up of packages.
+
+Programs start running in package main.
+
+This program is using the packages with import paths "fmt" and "math/rand".
+
+By convention, the package name is the same as the last element of the import path. For instance, the "math/rand" package comprises files that begin with the statement package rand.
+
+Note: The environment in which these programs are executed is deterministic, so each time you run the example program rand.Intn will return the same number.
+
+(To see a different number, seed the number generator; see rand.Seed. Time is constant in the playground, so you will need to use something else as the seed.)
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
