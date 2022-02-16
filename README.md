@@ -39,6 +39,8 @@ hello world made with golang following the documentation
 
 #### Hello
 
-`These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.`
+```
+These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.
+```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
