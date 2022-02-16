@@ -16,7 +16,9 @@ hello world made with golang following the documentation
 
 ### A Tour of Go
 
-- [x] hello.go
+#### Part 1
+
+- [x] [hello.go](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
 - [x] sandbox.go
 - [x] packages.go
 - [x] imports.go
@@ -34,3 +36,9 @@ hello world made with golang following the documentation
 - [x] type-inference.go
 - [x] constants.go
 - [x] numeric-constants.go
+
+#### Hello
+
+`These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.`
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
