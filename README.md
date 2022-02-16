@@ -19,7 +19,7 @@ hello world made with golang following the documentation
 #### Part 1
 
 - [x] [hello](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
-- [x] sandbox.go
+- [x] [sandbox](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#sandbox)
 - [x] packages.go
 - [x] imports.go
 - [x] exported-names.go
@@ -40,5 +40,21 @@ hello world made with golang following the documentation
 #### Hello
 
 `These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.`
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+#### Sandbox
+
+`This tour is built atop the Go Playground, a web service that runs on golang.org's servers.
+
+The service receives a Go program, compiles, links, and runs the program inside a sandbox, then returns the output.
+
+There are limitations to the programs that can be run in the playground:
+
+In the playground the time begins at 2009-11-10 23:00:00 UTC (determining the significance of this date is an exercise for the reader). This makes it easier to cache programs by giving them deterministic output.
+There are also limits on execution time and on CPU and memory usage, and the program cannot access external network hosts.
+The playground uses the latest stable release of Go.
+
+Read "[Inside the Go Playground](https://go.dev/blog/playground)" to learn more.`
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
