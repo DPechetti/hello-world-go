@@ -25,7 +25,7 @@ hello world made with golang following the documentation
 - [x] [Exported-names](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#exported-names)
 - [x] [Functions](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#functions)
 - [x] [Functions Continued](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#functions-continued)
-- [x] multiple-results.go
+- [x] [Multiple Results](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#multiple-results)
 - [x] named-results.go
 - [x] variables.go
 - [x] variables-with-initializers.go
@@ -151,6 +151,16 @@ to
 
 ```go
 x, y int
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Multiple Results
+
+```
+A function can return any number of results.
+
+The swap function returns two strings.
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
