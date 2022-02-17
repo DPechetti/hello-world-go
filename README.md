@@ -27,7 +27,7 @@ hello world made with golang following the documentation
 - [x] [Functions Continued](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#functions-continued)
 - [x] [Multiple Results](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#multiple-results)
 - [x] [Named Results](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#named-results)
-- [x] variables.go
+- [x] [Variables](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#variables)
 - [x] variables-with-initializers.go
 - [x] short-variable-declarations.go
 - [x] basic-types.go
@@ -175,6 +175,16 @@ These names should be used to document the meaning of the return values.
 A return statement without arguments returns the named return values. This is known as a "naked" return.
 
 Naked return statements should be used only in short functions, as with the example shown here. They can harm readability in longer functions.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Variables
+
+```
+The var statement declares a list of variables; as in function argument lists, the type is last.
+
+A var statement can be at package or function level. We see both in this example.
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
