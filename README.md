@@ -22,7 +22,7 @@ hello world made with golang following the documentation
 - [x] [sandbox](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#sandbox)
 - [x] [packages](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#packages)
 - [x] [imports](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#imports)
-- [x] exported-names.go
+- [x] [exported-names](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#exported-names)
 - [x] functions.go
 - [x] functions-continued.go
 - [x] multiple-results.go
@@ -105,6 +105,18 @@ import (
 	"fmt"
 	"math"
 )
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Exported Names
+
+```
+In Go, a name is exported if it begins with a capital letter. For example, Pizza is an exported name, as is Pi, which is exported from the math package.
+
+pizza and pi do not start with a capital letter, so they are not exported.
+
+When importing a package, you can refer only to its exported names. Any "unexported" names are not accessible from outside the package.
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
