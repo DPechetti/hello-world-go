@@ -96,6 +96,7 @@ import "math"
 
 ```
 But it is good style to use the factored import statement.
+
 The right way is:
 ```
 
