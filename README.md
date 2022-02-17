@@ -24,7 +24,7 @@ hello world made with golang following the documentation
 - [x] [Imports](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#imports)
 - [x] [Exported-names](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#exported-names)
 - [x] [Functions](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#functions)
-- [x] functions-continued.go
+- [x] [Functions Continued](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#functions-continued)
 - [x] multiple-results.go
 - [x] named-results.go
 - [x] variables.go
@@ -132,5 +132,25 @@ Notice that the type comes after the variable name.
 ```
 
 For more about why types look the way they do, see the [article on Go's declaration syntax](https://blog.golang.org/gos-declaration-syntax).
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Functions Continued
+
+```
+When two or more consecutive named function parameters share a type, you can omit the type from all but the last.
+
+In this example, we shortened
+```
+
+```go
+x int, y int
+```
+
+to
+
+```go
+x, y int
+```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
