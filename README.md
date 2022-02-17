@@ -18,12 +18,12 @@ hello world made with golang following the documentation
 
 #### Part 1
 
-- [x] [hello](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
-- [x] [sandbox](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#sandbox)
-- [x] [packages](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#packages)
-- [x] [imports](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#imports)
-- [x] [exported-names](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#exported-names)
-- [x] functions.go
+- [x] [Hello](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
+- [x] [Sandbox](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#sandbox)
+- [x] [Packages](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#packages)
+- [x] [Imports](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#imports)
+- [x] [Exported-names](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#exported-names)
+- [x] [Functions](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#functions)
 - [x] functions-continued.go
 - [x] multiple-results.go
 - [x] named-results.go
@@ -57,9 +57,9 @@ There are limitations to the programs that can be run in the playground:
 In the playground the time begins at 2009-11-10 23:00:00 UTC (determining the significance of this date is an exercise for the reader). This makes it easier to cache programs by giving them deterministic output.
 There are also limits on execution time and on CPU and memory usage, and the program cannot access external network hosts.
 The playground uses the latest stable release of Go.
+```
 
 Read "[Inside the Go Playground](https://go.dev/blog/playground)" to learn more.
-```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
 
@@ -118,5 +118,19 @@ pizza and pi do not start with a capital letter, so they are not exported.
 
 When importing a package, you can refer only to its exported names. Any "unexported" names are not accessible from outside the package.
 ```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Functions
+
+```
+A function can take zero or more arguments.
+
+In this example, add takes two parameters of type int.
+
+Notice that the type comes after the variable name.
+```
+
+For more about why types look the way they do, see the [article on Go's declaration syntax](https://blog.golang.org/gos-declaration-syntax).
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
