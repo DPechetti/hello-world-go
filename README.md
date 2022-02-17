@@ -21,7 +21,7 @@ hello world made with golang following the documentation
 - [x] [hello](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#hello)
 - [x] [sandbox](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#sandbox)
 - [x] [packages](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#packages)
-- [x] imports.go
+- [x] [imports](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#imports)
 - [x] exported-names.go
 - [x] functions.go
 - [x] functions-continued.go
@@ -37,7 +37,7 @@ hello world made with golang following the documentation
 - [x] constants.go
 - [x] numeric-constants.go
 
-#### Hello
+### Hello
 
 ```
 These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.
@@ -45,7 +45,7 @@ These example programs demonstrate different aspects of Go. The programs in the 
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
 
-#### Sandbox
+### Sandbox
 
 ```
 This tour is built atop the Go Playground, a web service that runs on golang.org's servers.
@@ -63,7 +63,7 @@ Read "[Inside the Go Playground](https://go.dev/blog/playground)" to learn more.
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
 
-#### Packages
+### Packages
 
 ```
 Every Go program is made up of packages.
@@ -77,6 +77,33 @@ By convention, the package name is the same as the last element of the import pa
 Note: The environment in which these programs are executed is deterministic, so each time you run the example program rand.Intn will return the same number.
 
 (To see a different number, seed the number generator; see rand.Seed. Time is constant in the playground, so you will need to use something else as the seed.)
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Imports
+
+```
+This code groups the imports into a parenthesized, "factored" import statement.
+
+You can also write multiple import statements, like:
+```
+
+```go
+import "fmt"
+import "math"
+```
+
+```
+But it is good style to use the factored import statement.
+The right way is:
+```
+
+```go
+import (
+	"fmt"
+	"math"
+)
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
