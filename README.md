@@ -28,14 +28,14 @@ hello world made with golang following the documentation
 - [x] [Multiple Results](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#multiple-results)
 - [x] [Named Results](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#named-results)
 - [x] [Variables](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#variables)
-- [x] variables-with-initializers.go
-- [x] short-variable-declarations.go
-- [x] basic-types.go
-- [x] zero.go
-- [x] type-conversions.go
-- [x] type-inference.go
-- [x] constants.go
-- [x] numeric-constants.go
+- [x] [Variables With Initializers](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#variables-with-initializers)
+- [x] [Short Variable Declarations](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#short-variable-declarations)
+- [x] [Basic Types](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#basic-types)
+- [x] [Zero](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#zero)
+- [x] [Type Conversions](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-conversions)
+- [x] [Type Inference](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-inference)
+- [x] [Constants](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#constants)
+- [x] [Numeric Constants](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#numeric-constants)
 
 ### Hello
 
@@ -185,6 +185,157 @@ Naked return statements should be used only in short functions, as with the exam
 The var statement declares a list of variables; as in function argument lists, the type is last.
 
 A var statement can be at package or function level. We see both in this example.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Variables With Initializers
+
+```
+A var declaration can include initializers, one per variable.
+
+If an initializer is present, the type can be omitted; the variable will take the type of the initializer.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Short Variable Declarations
+
+```
+Inside a function, the := short assignment statement can be used in place of a var declaration with implicit type.
+
+Outside a function, every statement begins with a keyword (var, func, and so on) and so the := construct is not available.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Basic Types
+
+```
+Go's basic types are
+```
+
+```go
+bool
+
+string
+
+int  int8  int16  int32  int64
+uint uint8 uint16 uint32 uint64 uintptr
+
+byte // alias for uint8
+
+rune // alias for int32
+     // represents a Unicode code point
+
+float32 float64
+
+complex64 complex128
+```
+
+```
+The example shows variables of several types, and also that variable declarations may be "factored" into blocks, as with import statements.
+
+The int, uint, and uintptr types are usually 32 bits wide on 32-bit systems and 64 bits wide on 64-bit systems. When you need an integer value you should use int unless you have a specific reason to use a sized or unsigned integer type.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Zero
+
+```
+Variables declared without an explicit initial value are given their zero value.
+
+The zero value is:
+
+  0 for numeric types,
+  false for the boolean type, and
+  "" (the empty string) for strings.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Type Conversions
+
+```
+The expression T(v) converts the value v to the type T.
+
+Some numeric conversions:
+```
+
+```go
+var i int = 42
+var f float64 = float64(i)
+var u uint = uint(f)
+```
+
+```
+Or, put more simply:
+```
+
+```go
+i := 42
+f := float64(i)
+u := uint(f)
+```
+
+```
+Unlike in C, in Go assignment between items of different type requires an explicit conversion. Try removing the float64 or uint conversions in the example and see what happens.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Type Inference
+
+```
+When declaring a variable without specifying an explicit type (either by using the := syntax or var = expression syntax), the variable's type is inferred from the value on the right hand side.
+
+When the right hand side of the declaration is typed, the new variable is of that same type:
+```
+
+```go
+var i int
+j := i // j is an int
+```
+
+```
+But when the right hand side contains an untyped numeric constant, the new variable may be an int, float64, or complex128 depending on the precision of the constant:
+```
+
+```go
+i := 42           // int
+f := 3.142        // float64
+g := 0.867 + 0.5i // complex128
+```
+
+```
+Try changing the initial value of v in the example code and observe how its type is affected.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Constants
+
+```
+Constants are declared like variables, but with the const keyword.
+
+Constants can be character, string, boolean, or numeric values.
+
+Constants cannot be declared using the := syntax.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Numeric Constants
+
+```
+Numeric constants are high-precision values.
+
+An untyped constant takes the type needed by its context.
+
+Try printing needInt(Big) too.
+
+(An int can store at maximum a 64-bit integer, and sometimes less.)
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
