@@ -34,7 +34,7 @@ hello world made with golang following the documentation
 - [x] [Zero](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#zero)
 - [x] [Type Conversions](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-conversions)
 - [x] [Type Inference](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-inference)
-- [x] constants.go
+- [x] [Constants](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#constants)
 - [x] numeric-constants.go
 
 ### Hello
@@ -310,6 +310,18 @@ g := 0.867 + 0.5i // complex128
 
 ```
 Try changing the initial value of v in the example code and observe how its type is affected.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Constants
+
+```
+Constants are declared like variables, but with the const keyword.
+
+Constants can be character, string, boolean, or numeric values.
+
+Constants cannot be declared using the := syntax.
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
