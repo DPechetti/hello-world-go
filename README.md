@@ -33,7 +33,7 @@ hello world made with golang following the documentation
 - [x] [Basic Types](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#basic-types)
 - [x] [Zero](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#zero)
 - [x] [Type Conversions](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-conversions)
-- [x] type-inference.go
+- [x] [Type Inference](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-inference)
 - [x] constants.go
 - [x] numeric-constants.go
 
@@ -281,6 +281,35 @@ u := uint(f)
 
 ```
 Unlike in C, in Go assignment between items of different type requires an explicit conversion. Try removing the float64 or uint conversions in the example and see what happens.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Type Inference
+
+```
+When declaring a variable without specifying an explicit type (either by using the := syntax or var = expression syntax), the variable's type is inferred from the value on the right hand side.
+
+When the right hand side of the declaration is typed, the new variable is of that same type:
+```
+
+```go
+var i int
+j := i // j is an int
+```
+
+```
+But when the right hand side contains an untyped numeric constant, the new variable may be an int, float64, or complex128 depending on the precision of the constant:
+```
+
+```go
+i := 42           // int
+f := 3.142        // float64
+g := 0.867 + 0.5i // complex128
+```
+
+```
+Try changing the initial value of v in the example code and observe how its type is affected.
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
