@@ -35,7 +35,7 @@ hello world made with golang following the documentation
 - [x] [Type Conversions](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-conversions)
 - [x] [Type Inference](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#type-inference)
 - [x] [Constants](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#constants)
-- [x] numeric-constants.go
+- [x] [Numeric Constants](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#numeric-constants)
 
 ### Hello
 
@@ -322,6 +322,20 @@ Constants are declared like variables, but with the const keyword.
 Constants can be character, string, boolean, or numeric values.
 
 Constants cannot be declared using the := syntax.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### Numeric Constants
+
+```
+Numeric constants are high-precision values.
+
+An untyped constant takes the type needed by its context.
+
+Try printing needInt(Big) too.
+
+(An int can store at maximum a 64-bit integer, and sometimes less.)
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
