@@ -40,6 +40,7 @@ hello world made with golang following the documentation
 #### Part 2
 
 - [x] [For](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for)
+- [x] [For Continued](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for-continued)
 
 ### Hello
 
@@ -47,7 +48,7 @@ hello world made with golang following the documentation
 These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Sandbox
 
@@ -65,7 +66,7 @@ The playground uses the latest stable release of Go.
 
 Read "[Inside the Go Playground](https://go.dev/blog/playground)" to learn more.
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Packages
 
@@ -83,7 +84,7 @@ Note: The environment in which these programs are executed is deterministic, so 
 (To see a different number, seed the number generator; see rand.Seed. Time is constant in the playground, so you will need to use something else as the seed.)
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Imports
 
@@ -111,7 +112,7 @@ import (
 )
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Exported Names
 
@@ -123,7 +124,7 @@ pizza and pi do not start with a capital letter, so they are not exported.
 When importing a package, you can refer only to its exported names. Any "unexported" names are not accessible from outside the package.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Functions
 
@@ -137,7 +138,7 @@ Notice that the type comes after the variable name.
 
 For more about why types look the way they do, see the [article on Go's declaration syntax](https://blog.golang.org/gos-declaration-syntax).
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Functions Continued
 
@@ -157,7 +158,7 @@ to
 x, y int
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Multiple Results
 
@@ -167,7 +168,7 @@ A function can return any number of results.
 The swap function returns two strings.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Named Results
 
@@ -181,7 +182,7 @@ A return statement without arguments returns the named return values. This is kn
 Naked return statements should be used only in short functions, as with the example shown here. They can harm readability in longer functions.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Variables
 
@@ -191,7 +192,7 @@ The var statement declares a list of variables; as in function argument lists, t
 A var statement can be at package or function level. We see both in this example.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Variables With Initializers
 
@@ -201,7 +202,7 @@ A var declaration can include initializers, one per variable.
 If an initializer is present, the type can be omitted; the variable will take the type of the initializer.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Short Variable Declarations
 
@@ -211,7 +212,7 @@ Inside a function, the := short assignment statement can be used in place of a v
 Outside a function, every statement begins with a keyword (var, func, and so on) and so the := construct is not available.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Basic Types
 
@@ -243,7 +244,7 @@ The example shows variables of several types, and also that variable declaration
 The int, uint, and uintptr types are usually 32 bits wide on 32-bit systems and 64 bits wide on 64-bit systems. When you need an integer value you should use int unless you have a specific reason to use a sized or unsigned integer type.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Zero
 
@@ -257,7 +258,7 @@ The zero value is:
   "" (the empty string) for strings.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Type Conversions
 
@@ -287,7 +288,7 @@ u := uint(f)
 Unlike in C, in Go assignment between items of different type requires an explicit conversion. Try removing the float64 or uint conversions in the example and see what happens.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Type Inference
 
@@ -316,7 +317,7 @@ g := 0.867 + 0.5i // complex128
 Try changing the initial value of v in the example code and observe how its type is affected.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Constants
 
@@ -328,7 +329,7 @@ Constants can be character, string, boolean, or numeric values.
 Constants cannot be declared using the := syntax.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### Numeric Constants
 
@@ -342,7 +343,7 @@ Try printing needInt(Big) too.
 (An int can store at maximum a 64-bit integer, and sometimes less.)
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-1)
 
 ### For
 
@@ -362,4 +363,12 @@ The loop will stop iterating once the boolean condition evaluates to false.
 Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-2)
+
+### For Continued
+
+```
+The init and post statements are optional.
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-2)
