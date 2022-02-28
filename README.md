@@ -40,7 +40,7 @@ hello world made with golang following the documentation
 #### Part 2
 
 - [x] [For](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for)
-- [ ] [For Continued](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for-continued)
+- [x] [For Continued](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for-continued)
 
 ### Hello
 
