@@ -37,6 +37,10 @@ hello world made with golang following the documentation
 - [x] [Constants](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#constants)
 - [x] [Numeric Constants](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#numeric-constants)
 
+#### Part 2
+
+- [x] [For](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for)
+
 ### Hello
 
 ```
@@ -336,6 +340,26 @@ An untyped constant takes the type needed by its context.
 Try printing needInt(Big) too.
 
 (An int can store at maximum a 64-bit integer, and sometimes less.)
+```
+
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+
+### For
+
+```
+Go has only one looping construct, the for loop.
+
+The basic for loop has three components separated by semicolons:
+
+  the init statement: executed before the first iteration
+  the condition expression: evaluated before every iteration
+  the post statement: executed at the end of every iteration
+
+The init statement will often be a short variable declaration, and the variables declared there are visible only in the scope of the for statement.
+
+The loop will stop iterating once the boolean condition evaluates to false.
+
+Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
 ```
 
 [Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
