@@ -39,7 +39,7 @@ hello world made with golang following the documentation
 
 #### Part 2
 
-- [ ] [For](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for)
+- [x] [For](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#for)
 
 ### Hello
 
