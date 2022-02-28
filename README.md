@@ -363,7 +363,7 @@ The loop will stop iterating once the boolean condition evaluates to false.
 Note: Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-2)
 
 ### For Continued
 
@@ -371,4 +371,4 @@ Note: Unlike other languages like C, Java, or JavaScript there are no parenthese
 The init and post statements are optional.
 ```
 
-[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#a-tour-of-go)
+[Go back to "A Tour of Go" menu](https://github.com/DPechetti/hello-world-go/tree/feature/tour-of-go#part-2)
